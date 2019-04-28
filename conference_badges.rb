@@ -15,7 +15,7 @@ end
 def assign_rooms(array)
   returnArray = []
   for person in array do 
-    returnArray << "Hello, " + person + "! You'll be assigned to room " + person.elementIndex
+    returnArray << "Hello, " + person + "! You'll be assigned to room " + person.elementIndex + "!"
   end
   returnArray
 end
