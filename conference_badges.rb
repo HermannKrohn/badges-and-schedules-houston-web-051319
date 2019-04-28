@@ -6,4 +6,8 @@ end
 
 def batch_badge_creator(array)
   returnArray = []
-  
+  for person in array do
+    returnArray << badge_maker(person)
+  end
+  returnArray
+end
