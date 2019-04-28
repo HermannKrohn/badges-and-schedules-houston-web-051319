@@ -20,7 +20,7 @@ def assign_rooms(array)
  # returnArray
   
   array.each_with_index { |item, index|
-  returnArray << "Hello, #{item}! You'll be assigned to room #{index}!"
+  returnArray << "Hello, #{item}! You'll be assigned to room #{index+1}!"
 }
 returnArray
 end
